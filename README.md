@@ -1,13 +1,13 @@
 # Twitter Sentiment Impact on Bitcoin Pricing
-Natural Language Processing <sup>[[1]][1]</sup> (NLP) used in conjunction with a Support Vector Machine <sup>[[2]][2]</sup> 
+Natural Language Processing <sup>[1][1]</sup> (NLP) used in conjunction with a Support Vector Machine <sup>[2][2]</sup> 
 (SVM) to classify the sentiment of tweets to determine a correlation with Bitcoin prices.
 
 *Note: Not a full/complete project*
 
 ## General Information
-Preprocessing is handled by utilizing NLP techniques provided by the Natural Language Toolkit<sup>[[3]][3]</sup> (NLTK) to 
+Preprocessing is handled by utilizing NLP techniques provided by the Natural Language Toolkit<sup>[3][3]</sup> (NLTK) to 
 normalize textual data. Textual data is then converted into a Vector Space Model (VSM) with Term Frequency-Inverse 
-Document Frequency<sup>[[4]][4]</sup> (TF-IDF). A SVM is then used for binary classification of 
+Document Frequency<sup>[4][4]</sup> (TF-IDF). A SVM is then used for binary classification of 
 tweets to determine positive and non-positive sentiment of tweets. Tweets can be acquired using [TweetStreamer](https://github.com/acantu27/TweetStreamer).
 
 ## In Progress
@@ -25,5 +25,4 @@ tweets to determine positive and non-positive sentiment of tweets. Tweets can be
 [1]: https://en.wikipedia.org/wiki/Natural_language_processing
 [2]: https://google.com
 [3]: https://www.nltk.org/
-[4]: http://help.sentiment140.com/for-students
-[5]: http://help.sentiment140.com/for-students
+[4]: http://www.tfidf.com/
